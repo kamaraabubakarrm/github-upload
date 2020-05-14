@@ -1,0 +1,82 @@
+.btn-container {
+  display: flex;
+
+  button {
+    margin: 0 0.5em 0 0;
+    text-transform: uppercase;
+  }
+
+  > button:last-of-type {
+    margin: 0;
+  }
+
+  button:not([hidden]) {
+    flex: auto;
+  }
+}
+
+.form-check-label {
+  margin-bottom: 1.5rem;
+  font-size: 80%;
+}
+
+.form-check-input {
+  margin-top: 0.2rem;
+}
+
+.new-tab-button {
+  padding: 0.375rem 0.75rem;
+  margin: 0 0.5em 0 0;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .btn-container {
+    flex-direction: column;
+
+    button {
+      width: 100%;
+      margin: 0 0 0.5em;
+    }
+
+    > button:last-of-type {
+      margin: 0;
+    }
+  }
+
+  .form-check-label {
+    margin-bottom: 0;
+  }
+
+  .new-tab-button {
+    width: 100%;
+    margin: 0 0 0.5em;
+  }
+}
+
+.caution-text {
+  max-width: 32em;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+.custom-switch {
+  border: 0;
+  box-shadow: none;
+}
+
+.goToResultsBtn {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  @media screen and (min-width: 992px) {
+    display: none;
+  }
+}
+
+.recharts-legend-item-text {
+  vertical-align: middle;
+}
