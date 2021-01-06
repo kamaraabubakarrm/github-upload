@@ -67,7 +67,7 @@
     "@types/mathjs": "6.0.5",
     "ajv-i18n": "3.5.0",
     "animate.css": "4.0.0",
-    "axios": "0.19.2",
+    "axios": "0.21.1",
     "bootstrap": "4.4.1",
     "chroma-js": "2.1.0",
     "classnames": "2.2.6",
